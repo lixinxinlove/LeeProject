@@ -21,7 +21,7 @@ public class UserController {
     public String login(Integer id) {
         User user = userService.findById(id);
         System.out.println(user.toString());
-        return "WEB-INF/Modules/index.jsp";
+        return "index";
     }
 
     @RequestMapping("manage")
