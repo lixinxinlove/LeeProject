@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+﻿<%@ page contentType="text/html;charset=UTF-8" language="java"  isELIgnored="false" %>
 <html>
 <head>
 <meta content="金融后台管理系统" name="keywords" />
@@ -7,6 +7,9 @@
 <link rel="Stylesheet" type="text/css" href="${pageContext.request.contextPath}/assets/Styles/bridging.css"/>
 <script type="text/javascript" src="${pageContext.request.contextPath}/assets/Scripts/jquery-1.7.2.min.js"></script>
 <script type="text/javascript" src="${pageContext.request.contextPath}/assets/Scripts/common.js"></script>
+
+
+
 </head>
 
 <body>

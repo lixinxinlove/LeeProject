@@ -29,4 +29,11 @@
         <property name="prefix" value="/WEB-INF/Modules/" />
         <property name="suffix" value=".jsp" />
     </bean>
+
+
+    <!--配置静态处理器-->
+    <!--location 本地资源路径-->
+    <!-- mapping 拦截到的网络资源路径 http://localhost:8080/ssm/img/1.jpg  -->
+    <mvc:resources  location="/assets/" mapping="/assets/**" ></mvc:resources>
+
 </beans>
