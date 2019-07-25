@@ -26,7 +26,23 @@ public class UserController {
 
     @RequestMapping("manage")
     public String manage() {
-
         return "user/UserManage";
+    }
+
+
+    @RequestMapping("edit")
+    public String edit() {
+        return "user/UserEdit";
+    }
+
+
+    @RequestMapping("info")
+    public String info() {
+        return "user/UserInfo";
+    }
+
+    @RequestMapping("update")
+    public String update() {
+        return "user/UserUpdate";
     }
 }
